@@ -1,0 +1,11 @@
+.user-photo-placeholder {
+	display: inline;
+	border-radius: 5px;
+}
+
+.user-photo-placeholder img {
+	height: 32px;
+	width: 32px;
+	vertical-align: middle;
+	border-radius: 5px;
+}

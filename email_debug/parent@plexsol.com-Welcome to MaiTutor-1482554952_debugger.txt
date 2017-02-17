@@ -1,0 +1,94 @@
+The following SMTP error was encountered: 0 php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>User-Agent: CodeIgniter
+Date: Sat, 24 Dec 2016 12:49:12 +0800
+From: &quot;MaiTutor&quot; &lt;test@plexcloud.com&gt;
+Return-Path: &lt;test@plexcloud.com&gt;
+To: parent@plexsol.com
+Subject: =?UTF-8?Q?Welcome=20to=20MaiTutor?=
+Reply-To: &lt;test@plexcloud.com&gt;
+X-Sender: test@plexcloud.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;585dfe485f31c@plexcloud.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_585dfe485f363&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_585dfe485f363
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Welcome to MaiTutor
+Hi Parent!
+Thank you for registering with MaiTutor. To verify your email address, click
+here or navigate to the link below:
+http://localhost/mytutor/frontend/su/verify_email/53/6ec151b300859096af80b860c0b631fbf9217cc4
+Thank you,
+MaiTutor Team
+
+
+--B_ALT_585dfe485f363
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=3Chtml=3E
+=3Chead=3E
+	=3Cstyle=3E
+		body =7B
+			background: =23ddd=3B
+			font-family: sans-serif=3B
+			font-weight: 300=3B
+			font-size: 11pt=3B
+			line-height: 150=25=3B
+			padding: 20px=3B
+		=7D
+	=09
+		=23container =7B
+			width: 500px=3B
+			padding: 20px=3B
+			background: =23fff=3B
+			margin: 0 auto=3B
+			border-radius: 10px=3B
+			box-shadow: 0 0 10px rbga(0,0,0,0.5)=3B
+		=7D
+	=09
+		h1 =7B
+			font-weight: 300=3B
+		=7D
+	=09
+	=3C/style=3E
+=3C/head=3E
+=3Cbody=3E
+=09
+	=3Cdiv id=3D=22container=22=3E
+	=09
+		=3Cdiv style=3D=22text-align: center=3B padding: 10px 10px 30px 10px=3B=
+=22=3E
+			=3Cimg src=3D=22http://localhost/mytutor/frontend/email/logo.png=22 styl=
+e=3D=22width: 40=25=22 /=3E
+		=3C/div=3E
+	=09
+		=3Ch1=3EWelcome to MaiTutor=3C/h1=3E
+		=3Cp=3EHi Parent=21=3C/p=3E
+		=3Cp=3EThank you for registering with MaiTutor. To verify your email addr=
+ess, =3Ca href=3D=22http://localhost/mytutor/frontend/su/verify=5Femail/53/=
+6ec151b300859096af80b860c0b631fbf9217cc4=22=3Eclick here=3C/a=3E or navigat=
+e to the link below:=3C/p=3E
+		=3Cp=3E=3Ca href=3D=22http://localhost/mytutor/frontend/su/verify=5Femail=
+/53/6ec151b300859096af80b860c0b631fbf9217cc4=22=3Ehttp://localhost/mytutor/=
+frontend/su/verify=5Femail/53/6ec151b300859096af80b860c0b631fbf9217cc4=3C/a=
+=3E=3C/p=3E
+		=3Cp=3EThank you,=3Cbr /=3E
+		=3Cstrong=3EMaiTutor Team=3C/strong=3E
+		=3C/p=3E
+	=09
+	=3C/div=3E
+=09
+=3C/body=3E=09
+=09
+=3C/html=3E
+
+--B_ALT_585dfe485f363--</pre>

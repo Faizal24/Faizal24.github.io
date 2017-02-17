@@ -1,0 +1,72 @@
+.error, .btn-error {
+	color: #fff;
+	background: -webkit-linear-gradient(#e10000 0%, #bd0000 100%);
+	background: linear-gradient(#e10000 0%, #bd0000 100%);
+}
+
+.primary, .btn-primary {
+	color: #fff;
+	background: -webkit-linear-gradient(#f37b36 0%, #c35616 100%);
+	background: linear-gradient(#f37b36 0%, #c35616 100%);
+	border: 1px solid #c35616;
+} 
+
+.primary > a {
+	color: #fff;
+}
+
+.darkblue {
+	color: #fff;
+	background: -webkit-linear-gradient(#004c93 0%, #003b72 100%);
+	background: linear-gradient(#004c93 0%, #003b72 100%);
+	border: 1px solid #004c93;	
+}
+
+.lightblue {
+	color: #fff;
+	background: -webkit-linear-gradient(#6fbaff 0%, #3885cc 100%);
+	background: linear-gradient(#6fbaff 0%, #3885cc 100%);
+	border: 1px solid #3885cc;	
+}
+
+.pearl {
+	color: #fff;
+	background: -webkit-linear-gradient(#fff 0%, #ddd 100%);
+	background: linear-gradient(#fff 0%, #ddd 100%);
+	border: 1px solid #eee;	
+}
+
+.white {
+	color: #fff;
+}
+
+
+.darkblue > a {
+	color: #fff;	
+}
+
+.btn-primary:hover {
+	border: 1px solid #c35616 !important;		
+}
+
+.btn-primary:active {
+	background: -webkit-linear-gradient(#c35616 0%, #f37b36 100%);
+	background: linear-gradient(#c35616 0%, #f37b36 100%);
+	color: #fff;
+}
+
+.grey {
+	color: #999;	
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: #00a44b;
+}

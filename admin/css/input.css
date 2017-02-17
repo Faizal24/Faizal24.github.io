@@ -1,0 +1,63 @@
+input.text, input.search {
+	font-size: 12pt;
+	font-family: sans-serif;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px 3px;
+	margin: 2px 0;
+}
+
+textarea.text {
+	font-size: 12pt;
+	font-family: sans-serif;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px 3px;
+	margin: 2px 0;
+}
+
+input.text:focus, input.search:focus {
+	outline: none;
+	border: 1px solid #0096ff;
+	box-shadow: 0 0 2px #0096ff;
+}
+
+textarea.text:focus {
+	outline: none;
+	border: 1px solid #0096ff;
+	box-shadow: 0 0 2px #0096ff;	
+}
+
+.textboxlist {
+	background: #fff;
+	font-size: 12pt;
+	font-family: sans-serif;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px 3px;
+	margin: 2px 0;	
+}
+
+.textboxlist-focus {
+	outline: none;
+	border: 1px solid #0096ff;
+	box-shadow: 0 0 2px #0096ff;	
+}
+
+.textboxlist input {
+	background: none;
+	border: none !important;
+	font-size: 12pt;
+	font-size: 12pt;
+	font-family: sans-serif;
+	padding: 2px 3px;
+}
+
+select {
+	border: 1px solid #eee;
+	outline: none;
+	font-size: 12pt;
+	font-family: sans-serif;
+	height: 30px;	
+	margin-top: 2px;
+}
